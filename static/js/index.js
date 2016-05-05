@@ -17,7 +17,7 @@ $(document).ready( function() {
     });
     
     // This controls the button for the d note.
-    
+    var dNote = document.getElementById('dAudio');
     
     $('#d').mousedown(function(){
         dNote.currentTime = 0;
@@ -25,26 +25,59 @@ $(document).ready( function() {
     });
     
     // This controls the button for the e note.
+
     
+    var eNote = document.getElementById('eAudio');
+    
+    $('#e').mousedown(function(){
+        eNote.currentTime = 0;
+        eNote.play();
+    });
     
     
  
     // This controls the button for the f note.
     
+    var fNote = document.getElementById('eAudio');
     
+    $('#f').mousedown(function(){
+        fNote.currentTime = 0;
+        fNote.play();
+    });
+
+ 
+ // This controls the button for the g note.
+
+ var gNote = document.getElementById('eAudio');
     
-    
-    // This controls the button for the g note.
+    $('#g').mousedown(function(){
+        gNote.currentTime = 0;
+        gNote.play();
+    });
     
     
     
     
     // This controls the button for the a note.
+
+    var aNote = document.getElementById('eAudio');
+    
+    $('#a').mousedown(function(){
+        aNote.currentTime = 0;
+        aNote.play();
+    });
     
     
     
     
     // This controls the button for the b note.
+
+     var bNote = document.getElementById('eAudio');
+    
+    $('#b').mousedown(function(){
+        bNote.currentTime = 0;
+        bNote.play();
+    });
     
     
     
